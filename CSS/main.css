@@ -1,0 +1,63 @@
+body{
+  background-color: blue;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #222;
+    
+}
+
+.main{
+  background: rgba(255,255,255,0.4);
+  max-width: 80vw;
+  margin: 100px auto;
+  border-radius: 20px;
+  font-size: 30px;
+  padding:  50px 0;
+}
+
+@media screen and (min-width: 480px) {
+  .main{
+    max-width: 50vw;
+  }
+
+#city{
+  font-weight: bold;
+  font-size: 120%;
+}
+
+#description {
+  font-size: 80%;
+  margin: 20px 0;
+}
+#temp{
+  font-size: 20px;
+}
+
+#icon{
+  min-width: 90px;
+}
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin-bottom: 50px;
+}
+
+footer {
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #ddd;
+  padding-top: 10px;
+  background-color: #666;
+  font-size: small;
+}
+
+
+
+
+
